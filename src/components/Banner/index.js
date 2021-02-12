@@ -44,7 +44,9 @@ const Banner = () => {
           <div className="desc">
             The purple in the sky ain't pretty as your eyes
           </div>
-          <FollowButton />
+          <div className="button">
+            Follow
+          </div>
         </div>
       </div>
     </>

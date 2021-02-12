@@ -86,10 +86,11 @@
     letter-spacing: 0.04rem;
     line-height: 1;
     display: grid;
-    padding: 40px 16px;
+    padding: 40px 20px;
     margin: 40px 0px;
     column-gap: 32px;
     box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.12);
+    box-sizing: border-box;
   }
   .banner {
     display: none;
@@ -161,4 +162,16 @@
 .profile-details-ms .desc {
   margin-top: 18px;
   color: var(--contentSec);
+}
+
+.profile-details-ms .button {
+  margin-top: 20px;
+  height:40px;
+  display: grid;
+  place-items: center;
+  border-radius: 5%/50%;
+  border:1px solid var(--brandprimary);
+  color:var(--brandprimary);
+  font-size:16px;
+  font-weight: 600;
 }

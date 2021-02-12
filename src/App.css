@@ -3,6 +3,7 @@
   --backgroundBase: #151515;
   --backgroundPrim: #212121;
   --contentSec: #8d8d95;
+  --brandprimary: #9592ff;
 
   --white: #ffffff;
 }
@@ -19,7 +20,7 @@ body {
 
 @media (max-width: 800px) {
   .appCointainer {
-    margin:0;
+    margin: 0;
   }
 }
 
