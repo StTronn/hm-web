@@ -1,13 +1,12 @@
 import React from "react";
+
 import "./index.css";
 
 const Banner = () => {
   return (
     <>
       <div className="banner">
-        <span>
-          <div className="profile-round"></div>
-        </span>
+        <div className="profile-round"></div>
         <div className="profile-details">
           <div className="heading">
             Rishav Thakur <FollowButton />
@@ -25,31 +24,35 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="banner-ms">
-        <span className="top">
-          <div className="profile-round-ms"></div>
-          <span>
-            <div className="heading">Rishav Thakur</div>
-            <div className="handle">@st_tronn</div>
-          </span>
-        </span>
-        <div className="profile-details-ms">
-          <div className="details">
-            <span className="number">16</span>
-            <span className="prop">Hums</span>
-            <div className="dot"></div>
-            <span className="number">422</span>
-            <span className="prop">Followers</span>
-          </div>
-          <div className="desc">
-            The purple in the sky ain't pretty as your eyes
-          </div>
-          <div className="button">
-            Follow
-          </div>
-        </div>
-      </div>
+      <BannerMobile />
     </>
+  );
+};
+
+const BannerMobile = () => {
+  return (
+    <div className="banner-ms">
+      <span className="top">
+        <div className="profile-round-ms"></div>
+        <span>
+          <div className="heading">Rishav Thakur</div>
+          <div className="handle">@st_tronn</div>
+        </span>
+      </span>
+      <div className="profile-details-ms">
+        <div className="details">
+          <span className="number">16</span>
+          <span className="prop">Hums</span>
+          <div className="dot"></div>
+          <span className="number">422</span>
+          <span className="prop">Followers</span>
+        </div>
+        <div className="desc">
+          The purple in the sky ain't pretty as your eyes
+        </div>
+        <div className="button">Follow</div>
+      </div>
+    </div>
   );
 };
 

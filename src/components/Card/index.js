@@ -23,8 +23,8 @@ const Card = ({ song }) => {
       </div>
       <div className="cardDesc">
         <div>
-          <div className="cardAlbum">{"Posted In"}</div>
-          <div className="cardTitle">{"#quarantunes"}</div>
+          <div className="cardPosted">{"Posted In"}</div>
+          <div className="cardChannel">{"#quarantunes"}</div>
         </div>
         <div className="iconWrapper">
           <CommentIcon />
